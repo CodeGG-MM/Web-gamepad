@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Web Gamepad</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="gamepad">
+        <div class="top-left-buttons">
+          <button class="button l1" data-action="l1">L1</button>
+          <button class="button l2" data-action="l2">L2</button>
+        </div>
+         <div class="top-right-buttons">
+          <button class="button r1" data-action="r1">R1</button>
+          <button class="button r2" data-action="r2">R2</button>
+        </div>
+        <div class="bottom-left">
+          <div class="joystick-container" id="player-joystick-container">
+            <div class="joystick" id="player-joystick">
+              <div class="handle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-right">
+          <div class="buttons">
+            <button class="button a" data-action="a">A</button>
+            <button class="button b" data-action="b">B</button>
+            <button class="button x" data-action="x">X</button>
+            <button class="button y" data-action="y">Y</button>
+          </div>
+          <div class="joystick-container" id="camera-joystick-container">
+            <div class="joystick" id="camera-joystick">
+              <div class="handle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="center-buttons">
+          <button class="button start" data-action="start">Start</button>
+          <button class="button select" data-action="select">Select</button>
+        </div>
+      </div>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    </html>

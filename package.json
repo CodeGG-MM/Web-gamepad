@@ -1,0 +1,13 @@
+{
+      "name": "web-gamepad",
+      "version": "1.0.0",
+      "description": "Web-based gamepad for Android TV",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+      },
+      "devDependencies": {
+        "vite": "^4.4.9"
+      }
+    }
